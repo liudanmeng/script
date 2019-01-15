@@ -1,0 +1,3 @@
+SELECT * FROM INFORMATION_SCHEMA.PROCESSLIST where command != 'Sleep' order by time desc;
+
+kill  ****
